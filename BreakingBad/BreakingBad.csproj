@@ -74,6 +74,9 @@
 	  <MauiXaml Update="MikeEhrmantraut.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="NewPage1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="SaulGoodman.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

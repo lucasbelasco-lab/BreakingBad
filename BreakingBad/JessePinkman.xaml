@@ -3,10 +3,32 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BreakingBad.JessePinkman"
              Title="JessePinkman">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+
+
+    <ScrollView>
+
+        <VerticalStackLayout Padding="20" Spacing="15">
+
+            <Label Text="Jesse Pinkman"
+                   FontSize="30"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center" />
+
+            <Image Source="jesse.jpg"
+                   HeightRequest="250"
+                   Aspect="AspectFit" />
+
+            <Label Text="Jesse Pinkman é um antigo aluno de Walter White e um dos principais personagens de Breaking Bad. Ele já tinha envolvimento com a produção e venda de drogas antes de começar a trabalhar com Walter.
+
+Jesse passa a produzir metanfetamina junto com Walter e, ao longo da série, os dois enfrentam diversas situações perigosas. Apesar de estar envolvido com o mundo do crime, Jesse demonstra várias vezes que se preocupa com outras pessoas e sofre com as consequências de suas escolhas.
+
+Durante a história, Jesse amadurece e passa por muitas mudanças. Sua relação com Walter também se transforma bastante, passando por momentos de parceria, conflitos e desentendimentos.
+
+Jesse é conhecido por seu jeito mais descontraído e por algumas de suas expressões, mas sua trajetória se torna cada vez mais séria conforme os acontecimentos da série avançam."
+                   FontSize="17" />
+
+        </VerticalStackLayout>
+
+    </ScrollView>
+
 </ContentPage>

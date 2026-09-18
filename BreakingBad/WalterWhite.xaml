@@ -3,10 +3,32 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BreakingBad.WalterWhite"
              Title="WalterWhite">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+    <ScrollView>
+
+        <VerticalStackLayout Padding="20" Spacing="15">
+
+            <Label Text="Walter White"
+                   FontSize="30"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center" />
+
+            <Image Source="walter.jpg"
+                   HeightRequest="250"
+                   Aspect="AspectFit" />
+
+            <Label Text="Walter White é o personagem principal de Breaking Bad. No início da série, ele é um professor de química que trabalha em uma escola e também possui um emprego em um lava-rápido para conseguir sustentar sua família.
+
+Depois de descobrir que tem câncer, Walter começa a se preocupar com o futuro financeiro de sua família. Por conhecer bastante sobre química, ele decide usar seus conhecimentos para produzir metanfetamina e conseguir dinheiro.
+
+Para começar a produção, Walter procura Jesse Pinkman, um antigo aluno que já estava envolvido com a produção e venda de drogas. Os dois começam a trabalhar juntos e entram cada vez mais no mundo do crime.
+
+Ao longo da série, Walter passa por diversas mudanças. Ele deixa de ser apenas um professor e começa a assumir uma posição cada vez mais importante dentro do mundo do crime.
+
+Sua relação com Jesse também passa por vários momentos de parceria e conflitos. As escolhas de Walter acabam trazendo consequências para sua família e para as pessoas que estão ao seu redor."
+                   FontSize="17" />
+
+        </VerticalStackLayout>
+
+    </ScrollView>
+
 </ContentPage>

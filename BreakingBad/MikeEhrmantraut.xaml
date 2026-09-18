@@ -3,10 +3,44 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BreakingBad.MikeEhrmantraut"
              Title="MikeEhrmantraut">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+    <ScrollView>
+
+        <VerticalStackLayout Padding="20" Spacing="15">
+
+            <Label Text="Mike Ehrmantraut"
+                   FontSize="30"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center" />
+
+            <Image Source="mike.jpg"
+                   HeightRequest="250"
+                   Aspect="AspectFit" />
+
+            <Label Text="Quem é Mike Ehrmantraut?"
+                   FontSize="23"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center" />
+
+            <Label Text="Mike Ehrmantraut é um dos personagens importantes de Breaking Bad. Ele é conhecido por ser uma pessoa séria, reservada e muito cuidadosa com suas ações. Mike possui bastante experiência e costuma analisar as situações antes de tomar uma decisão."
+                   FontSize="17" />
+
+            <Label Text="Antes de se envolver com o mundo do crime, Mike trabalhou como policial. Essa experiência ajuda a explicar seu conhecimento sobre segurança, investigação e sobre como lidar com situações perigosas."
+                   FontSize="17" />
+
+            <Label Text="Na série, Mike trabalha para pessoas envolvidas com o tráfico de drogas e atua como segurança e solucionador de problemas. Ele é conhecido por tentar evitar problemas desnecessários e costuma planejar suas ações com bastante cuidado."
+                   FontSize="17" />
+
+            <Label Text="Mike também possui uma relação importante com seu neto e demonstra preocupação com sua família. Esse lado do personagem mostra que, apesar de estar envolvido com atividades criminosas, ele possui motivos pessoais que influenciam algumas de suas decisões."
+                   FontSize="17" />
+
+            <Label Text="Ao longo da série, Mike acaba trabalhando próximo de Walter White e Jesse Pinkman. Sua experiência faz com que ele seja uma pessoa importante para os acontecimentos relacionados ao grupo."
+                   FontSize="17" />
+
+            <Label Text="O personagem também aparece em Better Call Saul, série que mostra mais detalhes sobre seu passado e sobre os acontecimentos que ocorreram antes de Breaking Bad."
+                   FontSize="17" />
+
+        </VerticalStackLayout>
+
+    </ScrollView>
+
 </ContentPage>
