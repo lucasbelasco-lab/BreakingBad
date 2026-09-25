@@ -30,6 +30,7 @@
 
 				<Image Source="walter.jpg"
                        HeightRequest="230"
+					   HorizontalOptions="Fill"
                        Aspect="AspectFit" />
 
 			</Border>

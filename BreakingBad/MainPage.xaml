@@ -32,7 +32,6 @@
                 <Image Source="breakingbad.jpg"
                        HeightRequest="150"
                        Aspect="AspectFit" />
-
             </Border>
 
             <Border BackgroundColor="White"
