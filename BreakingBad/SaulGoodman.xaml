@@ -1,46 +1,75 @@
 <?xml version="1.0" encoding="utf-8" ?>
+
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BreakingBad.SaulGoodman"
-             Title="SaulGoodman">
-    <ScrollView>
+             Title="Saul Goodman"
+             BackgroundColor="#F2F2F2">
 
-        <VerticalStackLayout Padding="20" Spacing="15">
+	<ScrollView>
 
-            <Label Text="Saul Goodman"
-                   FontSize="30"
+		<VerticalStackLayout Padding="25,20"
+                             Spacing="18">
+
+			<Label Text="SAUL GOODMAN"
+                   FontSize="28"
                    FontAttributes="Bold"
-                   HorizontalOptions="Center" />
+                   HorizontalOptions="Center"
+                   TextColor="#4F6F16" />
 
-            <Image Source="saul.jpg"
-                   HeightRequest="250"
-                   Aspect="AspectFit" />
+			<BoxView HeightRequest="3"
+                     BackgroundColor="#6B8E23"
+                     WidthRequest="80"
+                     HorizontalOptions="Center" />
 
-            <Label Text="Quem é Saul Goodman?"
-                   FontSize="23"
-                   FontAttributes="Bold"
-                   HorizontalOptions="Center" />
+			<Border Stroke="#CCCCCC"
+                    StrokeThickness="1"
+                    BackgroundColor="White"
+                    Padding="8"
+                    StrokeShape="RoundRectangle 10">
 
-            <Label Text="Saul Goodman é um advogado conhecido por sua maneira diferente de trabalhar. Seu nome verdadeiro é James McGill, mas ele passa a usar o nome Saul Goodman para construir sua carreira e conquistar novos clientes."
-                   FontSize="17" />
+				<Image Source="saul.jpg"
+                       HeightRequest="230"
+                       Aspect="AspectFit" />
 
-            <Label Text="Na série Breaking Bad, Saul se torna o advogado de Walter White e Jesse Pinkman. Ele utiliza seus conhecimentos sobre a lei para ajudar os dois a resolver problemas e lidar com situações relacionadas ao mundo do crime."
-                   FontSize="17" />
+			</Border>
 
-            <Label Text="Saul é conhecido por ser comunicativo, criativo e muito persuasivo. Ele também costuma procurar soluções diferentes para os problemas de seus clientes, muitas vezes utilizando estratégias que outros advogados não utilizariam."
-                   FontSize="17" />
+			<Border BackgroundColor="White"
+                    Stroke="#6B8E23"
+                    StrokeThickness="1"
+                    Padding="20"
+                    StrokeShape="RoundRectangle 10">
 
-            <Label Text="Apesar de trabalhar como advogado, Saul acaba ficando cada vez mais envolvido com pessoas perigosas e com atividades criminosas. Sua relação com Walter e Jesse faz com que ele participe de vários acontecimentos importantes da história."
-                   FontSize="17" />
+				<VerticalStackLayout Spacing="12">
 
-            <Label Text="O personagem também é um dos principais protagonistas de Better Call Saul, série que conta sua história antes dos acontecimentos de Breaking Bad e mostra como James McGill se transforma em Saul Goodman."
-                   FontSize="17" />
+					<Label Text="Sobre o personagem"
+                           FontSize="22"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Center"
+                           TextColor="#4F6F16" />
 
-            <Label Text="Saul é um personagem que mistura humor, inteligência e problemas pessoais, tendo uma participação importante no desenvolvimento da história."
-                   FontSize="17" />
+					<Label Text="Saul Goodman é um advogado que aparece durante a história de Breaking Bad e passa a ter uma relação importante com Walter White e Jesse Pinkman."
+                           FontSize="16"
+                           TextColor="#444444" />
 
-        </VerticalStackLayout>
+					<Label Text="Ele é conhecido por seu jeito extrovertido, suas propagandas e sua maneira pouco convencional de trabalhar."
+                           FontSize="16"
+                           TextColor="#444444" />
 
-    </ScrollView>
+					<Label Text="Quando Walter e Jesse entram cada vez mais no mundo do crime, Saul começa a trabalhar para eles e ajuda a resolver diversos problemas."
+                           FontSize="16"
+                           TextColor="#444444" />
+
+					<Label Text="Apesar de muitas vezes trazer um tom de humor para a história, Saul acaba se envolvendo com pessoas perigosas e situações complicadas."
+                           FontSize="16"
+                           TextColor="#444444" />
+
+				</VerticalStackLayout>
+
+			</Border>
+
+		</VerticalStackLayout>
+
+	</ScrollView>
 
 </ContentPage>

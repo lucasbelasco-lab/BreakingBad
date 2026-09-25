@@ -1,36 +1,52 @@
 <?xml version="1.0" encoding="utf-8" ?>
-    <FlyoutPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+<FlyoutPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
             x:Class="BreakingBad.AppFlyoutPage"
             FlyoutLayoutBehavior="Popover">
 
-    <FlyoutPage.Flyout>
+	<FlyoutPage.Flyout>
 
-        <ContentPage Title="Menu">
+		<ContentPage Title="Menu"
+                     BackgroundColor="#171717">
 
-            <VerticalStackLayout Padding="20" Spacing="10">
+			<VerticalStackLayout Padding="20,35,20,20"
+                                 Spacing="12">
 
-                <Label Text="Breaking Bad"
+				<Label Text="BREAKING BAD"
                        FontSize="25"
                        FontAttributes="Bold"
-                       HorizontalOptions="Center" />
+                       HorizontalOptions="Center"
+                       TextColor="#6B8E23"
+                       Margin="0,0,0,20" />
 
-                <Button Text="Walter White"
-                        Clicked="OnWalterClicked" />
+				<Button Text="Walter White"
+                        Clicked="OnWalterClicked"
+                        BackgroundColor="#6B8E23"
+                        TextColor="White"
+                        CornerRadius="8" />
 
-                <Button Text="Jesse Pinkman"
-                        Clicked="OnJesseClicked" />
+				<Button Text="Jesse Pinkman"
+                        Clicked="OnJesseClicked"
+                        BackgroundColor="#6B8E23"
+                        TextColor="White"
+                        CornerRadius="8" />
 
-                <Button Text="Saul Goodman"
-                        Clicked="OnSaulClicked" />
+				<Button Text="Saul Goodman"
+                        Clicked="OnSaulClicked"
+                        BackgroundColor="#6B8E23"
+                        TextColor="White"
+                        CornerRadius="8" />
 
-                <Button Text="Mike Ehrmantraut"
-                        Clicked="OnMikeClicked" />
+				<Button Text="Mike Ehrmantraut"
+                        Clicked="OnMikeClicked"
+                        BackgroundColor="#6B8E23"
+                        TextColor="White"
+                        CornerRadius="8" />
 
-            </VerticalStackLayout>
+			</VerticalStackLayout>
 
-        </ContentPage>
+		</ContentPage>
 
-    </FlyoutPage.Flyout>
+	</FlyoutPage.Flyout>
 
 </FlyoutPage>

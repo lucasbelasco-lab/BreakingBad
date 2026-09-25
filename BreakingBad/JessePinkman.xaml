@@ -1,34 +1,76 @@
 <?xml version="1.0" encoding="utf-8" ?>
+
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BreakingBad.JessePinkman"
-             Title="JessePinkman">
+             Title="Jesse Pinkman"
+             BackgroundColor="#F2F2F2">
 
+	<ScrollView>
 
-    <ScrollView>
+		<VerticalStackLayout Padding="25,20"
+                             Spacing="18">
 
-        <VerticalStackLayout Padding="20" Spacing="15">
-
-            <Label Text="Jesse Pinkman"
-                   FontSize="30"
+			<Label Text="JESSE PINKMAN"
+                   FontSize="28"
                    FontAttributes="Bold"
-                   HorizontalOptions="Center" />
+                   HorizontalOptions="Center"
+                   TextColor="#4F6F16" />
 
-            <Image Source="jesse.jpg"
-                   HeightRequest="250"
-                   Aspect="AspectFit" />
+			<BoxView HeightRequest="3"
+                     BackgroundColor="#6B8E23"
+                     WidthRequest="80"
+                     HorizontalOptions="Center"/>
 
-            <Label Text="Jesse Pinkman é um antigo aluno de Walter White e um dos principais personagens de Breaking Bad. Ele já tinha envolvimento com a produção e venda de drogas antes de começar a trabalhar com Walter.
+			<Border Stroke="#CCCCCC"
+                    StrokeThickness="1"
+                    BackgroundColor="White"
+                    Padding="8"
+                    StrokeShape="RoundRectangle 10">
 
-Jesse passa a produzir metanfetamina junto com Walter e, ao longo da série, os dois enfrentam diversas situações perigosas. Apesar de estar envolvido com o mundo do crime, Jesse demonstra várias vezes que se preocupa com outras pessoas e sofre com as consequências de suas escolhas.
+				<Image Source="jesse.jpg"
+                       HeightRequest="230"
+                       WidthRequest="330"
+                       Aspect="AspectFill" />
 
-Durante a história, Jesse amadurece e passa por muitas mudanças. Sua relação com Walter também se transforma bastante, passando por momentos de parceria, conflitos e desentendimentos.
+			</Border>
 
-Jesse é conhecido por seu jeito mais descontraído e por algumas de suas expressões, mas sua trajetória se torna cada vez mais séria conforme os acontecimentos da série avançam."
-                   FontSize="17" />
+			<Border BackgroundColor="White"
+                    Stroke="#6B8E23"
+                    StrokeThickness="1"
+                    Padding="20"
+                    StrokeShape="RoundRectangle 10">
 
-        </VerticalStackLayout>
+				<VerticalStackLayout Spacing="12">
 
-    </ScrollView>
+					<Label Text="Sobre o personagem"
+                           FontSize="22"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Center"
+                           TextColor="#4F6F16" />
+
+					<Label Text="Jesse Pinkman é um antigo aluno de Walter White e um dos principais personagens de Breaking Bad. Antes de trabalhar com Walter, ele já estava envolvido com a produção e venda de drogas."
+                           FontSize="16"
+                           TextColor="#444444" />
+
+					<Label Text="Jesse passa a produzir metanfetamina junto com Walter e os dois enfrentam diversas situações perigosas."
+                           FontSize="16"
+                           TextColor="#444444" />
+
+					<Label Text="Apesar de estar envolvido com o mundo do crime, Jesse demonstra preocupação com outras pessoas e sofre com as consequências de suas escolhas."
+                           FontSize="16"
+                           TextColor="#444444" />
+
+					<Label Text="Durante a história, Jesse amadurece e passa por várias mudanças. Sua relação com Walter também passa por momentos de parceria e conflitos."
+                           FontSize="16"
+                           TextColor="#444444" />
+
+				</VerticalStackLayout>
+
+			</Border>
+
+		</VerticalStackLayout>
+
+	</ScrollView>
 
 </ContentPage>
